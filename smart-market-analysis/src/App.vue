@@ -1,4 +1,7 @@
 <template>
+  <!-- <el-header class="header-bar"> -->
+    <p class="header-bar">数智化市场营销方法</p>
+  <!-- </el-header> -->
   <!-- 左右两列布局容器 -->
   <el-container style="min-height: 100vh;">
     <!-- 左侧固定宽度导航栏 Aside -->
@@ -12,7 +15,7 @@
     </el-aside>
 
     <!-- 右侧主要内容区域 Main -->
-    <el-main style="padding: 20px;">
+    <el-main style="padding: 0px; padding-left: 20px;">
       <!-- 路由出口，显示当前选中章节的组件内容 -->
       <router-view />
     </el-main>
@@ -43,6 +46,14 @@ onBeforeUnmount(() => {
 </script>
 
 <style>
+.header-bar {
+  font-size: 40px;
+  margin: 0;
+  /* padding-top: 10px; */
+  font-weight: bolder;
+  width: 100%;
+  z-index: 1000;
+}
 /* 全局布局样式 */
 .el-aside {
   background-color: #f0f2f5;            /* 浅灰背景提高对比 */
