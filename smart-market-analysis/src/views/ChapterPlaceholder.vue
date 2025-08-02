@@ -6,7 +6,7 @@
     :closable="false"
     show-icon
     style="width: 900px;"
-    description="本教材用于教学使用，目前仅提供第1章在线展示，其余章节需支付1元用于打印邮寄。请在付款时备注姓名、单位和邮箱。" 
+    description="本教材用于教学使用，目前仅提供第1章在线展示，其余章节需预付款1元用于打印邮寄。请在付款时备注姓名、单位和邮箱。" 
   />
   <!-- 支付宝收款二维码图片 -->
   <div style="text-align: center; margin-top: 20px;">
