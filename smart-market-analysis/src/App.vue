@@ -1,6 +1,6 @@
 <template>
   <!-- <el-header class="header-bar"> -->
-    <p class="header-bar">数智化市场营销方法</p>
+    <p class="header-bar">数智化市场分析方法</p>
   <!-- </el-header> -->
   <!-- 左右两列布局容器 -->
   <el-container style="min-height: 100vh;">
